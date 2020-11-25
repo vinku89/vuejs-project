@@ -1,0 +1,93 @@
+{
+  "name": "brexily2-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --port 82",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "bundle-js": "^1.0.3",
+    "core-js": "^3.6.5",
+    "daterangepicker": "^3.1.0",
+    "dd-trace": "^0.23.3",
+    "highcharts": "^8.2.0",
+    "highcharts-vue": "^1.3.5",
+    "idle-vue": "^2.0.5",
+    "jquery": "^3.5.1",
+    "js-polyfills": "^0.1.43",
+    "laravel-echo": "^1.8.1",
+    "lightweight-charts": "^3.1.5",
+    "moment-mini": "^2.24.0",
+    "nprogress": "^0.2.0",
+    "numeral": "^2.0.6",
+    "pusher-js": "^5.1.1",
+    "qrcode.vue": "^1.7.0",
+    "qs": "^6.9.4",
+    "rembrandt": "^0.1.3",
+    "slimscroll": "^0.9.1",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "trading-vue-js": "^0.5.2",
+    "v-tooltip": "^2.0.3",
+    "vue": "^2.6.12",
+    "vue-browser-detect-plugin": "^0.1.13",
+    "vue-clipboard2": "^0.3.1",
+    "vue-cool-select": "^3.5.2",
+    "vue-filter-number-format": "^2.0.0",
+    "vue-material-design-icons": "^4.9.0",
+    "vue-owl-carousel": "^2.0.3",
+    "vue-owl-carousel2": "^2.0.7",
+    "vue-property-decorator": "^9.0.0",
+    "vue-recaptcha": "^1.3.0",
+    "vue-router": "^3.4.3",
+    "vue-scrollto": "^2.18.2",
+    "vue-slimscroll": "^1.0.1",
+    "vue-social-sharing": "^2.4.7",
+    "vue-socket.io": "^3.0.10",
+    "vue-tel-input": "^4.4.0",
+    "vue-trading-view": "^1.0.1",
+    "vuebar": "0.0.20",
+    "vuelidate": "^0.7.5",
+    "vueperslides": "^2.10.8",
+    "vuetify": "^2.3.10",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@mdi/font": "^4.9.95",
+    "@vue/cli-plugin-babel": "^4.5.6",
+    "@vue/cli-plugin-eslint": "^4.5.6",
+    "@vue/cli-service": "^4.5.6",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-vuetify": "^2.0.7",
+    "vue-template-compiler": "^2.6.12",
+    "vuetify-loader": "^1.6.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": 0
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

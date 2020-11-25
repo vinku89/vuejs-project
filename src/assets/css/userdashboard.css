@@ -1,0 +1,793 @@
+.userinfo_pannel{
+    background-color: #153126;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.custom_col1{
+    width:15.5% !important;
+    float: left;
+}
+.custom_col4{
+    width:15.5% !important;
+    float: left;
+}
+.custom_col2{
+    width:23.3% !important;
+    float: left;
+}
+.custom_col5{
+    width:23.3% !important;
+    float: left;
+}
+.custom_col3{
+    width:22.3% !important;
+    float: left;
+}
+
+
+.green_br_left{
+    border-left: solid 1px #22E627;
+}
+.userphoto{
+    border: solid 2px #22E627;
+    padding: 3px;
+    border-radius: 50%;
+    position: relative;
+    height: 75px;
+}
+.userphoto .img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+.userphoto .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+a.camera_btn{
+    position: absolute;
+    bottom: -5px;
+    color: #22E627 !important;
+    right: -10px;
+    min-width: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+a.camera_btn:hover{
+    color:#22E627 !important;
+}
+a.camera_btn .v-icon{
+    color: #22E627 !important;
+}
+ .userLogin_details{
+    position: relative;
+    padding: 0 0 0 15px !important;
+}
+.userLogin_details p{
+    margin-bottom: 0 !important;
+    font-size: 12px;
+}
+.camunity_m_wrp{
+    position: relative;
+    padding-left: 20px;
+}
+.camunity_m_wrp p{
+    margin-bottom: 0 !important;
+    font-size: 12px; 
+}
+.monthly_rank{
+    position: relative;
+    margin-left: 80px;
+}
+
+.progressbar {
+padding-left: 0 !important;
+margin-bottom: 5px !important;
+  }
+  .progressbar li {
+    list-style: none;
+    display: inline-block;
+    width: 33.33%;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+  }
+  .progressbar li .v-icon{
+      position: relative;
+      z-index: 2;
+      color: #000;
+  }
+  .progressbar li .inactiveIcon{
+      display: block;
+  }
+  .progressbar li .activeIcon{
+    display: none;
+}
+
+  .progressbar li:after {
+    content: "";
+    position: absolute;
+    width: 77%;
+    height: 2px;
+    background-color: #000;
+    top: 15px;
+    left: -38%;
+    z-index : 1;
+  }
+  .progressbar li:first-child:after {
+    content: none;
+  }
+  .progressbar li.active .v-icon {
+    color: #21e627;
+  }
+
+  .progressbar li.active:before {
+    border-color: #21e627;
+  } 
+  .progressbar li.active .inactiveIcon{
+    display: none;
+   }
+   .progressbar li.active .activeIcon{
+        display: block;
+    }
+
+  .progressbar li.active + li:after {
+    background-color: #21e627;
+  }
+
+  .lev_Group {
+      padding-left: 0 !important;
+      margin-bottom: 0px !important;
+  }
+  .lev_Group li{
+      float: left;
+      width: 33.33%;
+  }
+.lev_Group p{
+    font-size: 12px;
+    margin-bottom: 0 !important;
+    text-align: center !important;
+}
+.lev_Group h6{
+    margin: 0 !important;
+    font-weight: bold;
+    text-align: center !important;
+}
+.welcometxt{
+    margin-top: 21px;
+}
+.divl{
+    position: absolute;
+    border: solid 3px #160030;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    top: 49%;
+    display: none;
+}
+.smallres_welcometxt{
+    display: none;
+}
+.curved_div{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 15px;
+    height: 170px;
+}
+.curved_div h5{
+    font-size: 18px;
+}
+.wave_blue{
+    background: url(../images/wave1.png) no-repeat 100% 77px #fff;
+}
+.wave_red{
+    background: url(../images/wave2.png) no-repeat 40% 90px #fff;
+}
+.wave_orange{
+    background: url(../images/wave3.png) no-repeat 82% 90px #fff;
+}
+.wave_purple{
+    background: url(../images/wave4.png) no-repeat 63% 72px #fff;
+}
+
+.curved_div .v-icon{
+    position: absolute !important;
+    top: 10px;
+    right: 10px;
+    font-size: 35px !important;
+}
+.curved_div .v-icon.waveicon1{
+    color: #0455FF !important;
+}
+.curved_div .v-icon.waveicon2{
+    color: #F03D59 !important;
+}
+.curved_div .v-icon.waveicon3{
+    color: #F67E51 !important;
+}
+.curved_div .v-icon.waveicon4{
+    color: #BD10E0 !important;
+}
+
+.curved_div p{
+    font-size: 15px;
+    margin: 0 !important;
+    color: #000;
+}
+.curved_div p.bluet{
+    color: #0455FF;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px !important;
+}
+.curved_div p.redt{
+    color: #F03D59;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px !important;
+}
+.curved_div p.oranget{
+    color: #F03D59;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px !important;
+}
+.curved_div p.purplet{
+    color: #BD10E0;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px !important;
+}
+
+.curved_div h5{
+    margin: 0;
+    color: #000;
+    padding-bottom: 5px;
+}
+
+
+.table_heading{
+    padding: 20px 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.cd_heading{
+    padding: 5px 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.table_heading.green_title{
+    background-color: #153126 !important;
+}
+.table_heading.purple_title{
+    background-color: #1D013D !important;
+}
+.rewardstable_bg{
+    background-color: #153126;
+    padding: 9px 5px 0px 5px;
+    height: calc(100% - 70px);
+}
+.rewardstable_bg .table,
+/* .table_1 table, */
+.top10_table{
+    border-collapse: separate !important;
+    border-spacing: 0 0px !important;
+}
+.rewardstable_bg .table td{
+    padding: 2px 10px !important;
+    background-color: #133e2d;
+    vertical-align: middle;
+}
+.rewardstable_bg .table td img{
+    width:20px !important;
+    height: 20px !important;
+}
+.cd_purple_bg{
+    background-color: #1D013D;
+    padding-top: 10px;
+}
+.cd_purple_bg .v-data-table-header tr th{
+    line-height: normal !important;
+}
+.table_1.v-data-table{
+    background-color: transparent !important;
+}
+.table_1.v-data-table tbody tr td{
+    background-color: #16002F;
+}
+.table_1 table tbody tr td{
+    height: 30px !important;
+}
+.box_border{
+    border: solid 1px #482E8F;
+}
+.cd_txt{
+    font-size: 12px !important;
+    height: 45px;
+}
+@media (min-width: 1921px){
+    .cd_txt{
+        font-size: 14px !important;
+    }
+}
+
+.cd_txt2{
+    height: 35px;
+    font-size: 14px;
+}
+
+.table_font tbody tr td,
+.table_font thead tr th{
+    font-size: 13px !important;
+}
+.dark_blue_bg{
+    background-color: #16002F;;
+}
+.cd_table_heading{
+    opacity: 0.8;
+    font-size: 12px;
+}
+
+.top10_table thead tr th{
+    padding: 10px 10px;
+}
+.top10_table tbody tr td{
+    background-color: #16002F;
+    height: 48px;
+    padding: 0 10px;
+}
+.browser_scroll{
+    overflow: auto;
+}
+table.top10_table,
+table.rewardTable{
+    table-layout: fixed;
+}
+
+.browser_scroll::-webkit-scrollbar{
+    width: 5px;
+    background-color: #1c0c2f;
+  } 
+.browser_scroll::-webkit-scrollbar-thumb {
+    background-color: #22e628;
+    border-radius: 10px;
+    }
+.browser_scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #1c0c2f;
+    background-color:transparent;
+    box-shadow: inset 0 0 6px #1c0c2f;
+}
+.table_wrp{
+    position: relative;
+    overflow: hidden;
+}
+.table_wrp2{
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+.table_scroll {
+    width: 100%;
+    padding-bottom: 10px;
+    height: 100%;
+}
+/* .table_1 table tbody tr td {
+    border-bottom: solid 8px #1d013d !important;
+    height: 45px !important;
+} */
+.table_scroll .v-data-table__wrapper {
+    height: 100% !important;
+}
+.table_wrp .v-data-table.v-data-table--fixed-header thead th,
+.table_wrp2 .v-data-table.v-data-table--fixed-header thead th{
+    background-color: #1d013d !important;
+}
+.table_scroll .v-data-table__wrapper table thead th{
+    line-height: normal !important;
+}
+
+.right_panel{
+    position: absolute !important;
+    right: 0;
+    /* bottom: 20px; */
+    top: 0;
+}
+.dark_br_bottom{
+    border-bottom: solid 1px #16002f;
+}
+.purple_br_bottom {
+    border-bottom: solid 1px #422863;
+}
+.cd_purple_bg .v-data-table.v-data-table--fixed-header thead th{
+    box-shadow: none !important;
+}
+@media (min-width:1699px){
+    .top10_table_wrap{
+        height: calc(100% - 276px);
+    }
+}
+
+
+
+/* .opentraders_table{
+    padding-bottom: 30px;
+} */
+.opentraders_table table tbody tr td:nth-child(2){
+    color: #22e628;
+}
+.top10_table tbody tr:hover> td{
+    background-color: #153126 !important;
+    cursor: pointer !important;
+    color: #22E627;
+    font-weight: bold;
+}
+.opentraders_table table tbody tr td:nth-child(6){
+    white-space: nowrap;
+}
+@media (min-width:1776px) and (max-width:1875px){
+    .top10_table tbody tr td{
+        height: 49px !important;
+    }
+}
+@media (min-width:1676px) and (max-width:1775px){
+    .top10_table tbody tr td{
+        height: 50px !important;
+    }
+}
+@media (min-width:1576px) and (max-width:1675px){
+    .top10_table tbody tr td{
+        height: 51px !important;
+    }
+}
+@media (min-width:1476px) and (max-width:1575px){
+    .top10_table tbody tr td{
+        height: 51px !important;
+    }
+}
+@media (min-width:1376px) and (max-width:1475px){
+    .top10_table tbody tr td{
+        height: 49px !important;
+    }
+}
+@media (max-width:1375px){
+    .top10_table tbody tr td{
+        height: 49px !important;
+    }
+}
+
+
+@media (min-width:1676px) and (max-width:1875px){
+    .curved_div h5{
+        font-size: 17px;
+    }
+}
+
+/* @media (min-width:1476px) and (max-width:1575px){
+    .curved_div h5{
+        font-size: 14px !important;
+    }
+    .curved_div p{
+        font-size: 13px;
+    }
+} */
+
+
+@media (min-width:1576px) and (max-width:1875px){
+    .table_wrp2 .v-data-table > .v-data-table__wrapper > table > thead > tr > th,
+    .table_wrp2 .v-data-table > .v-data-table__wrapper > table > tbody > tr > td{
+        padding: 0 5px !important;
+    }  
+    .right_panel{
+        height: 100% !important;
+    }
+    /* .top10_table_wrap.cd_purple_bg{
+        height: 100% !important;
+    } */
+ 
+
+}
+
+@media (min-width:1576px) and (max-width:1875px){
+    .table_font tbody tr td, .table_font thead tr th {
+        font-size: 11px !important;
+    }
+    .rewardstable_bg .table td,
+    .rewardstable_bg .table th{
+        padding: 3px 5px !important;
+    }
+    /* table thead tr th{
+        font-weight: normal !important;
+    } */
+    .ac_security .red_txt, 
+    .ac_security .red_txt i, 
+    .ac_security .green_txt, 
+    .ac_security .green_txt i {
+        font-size: 15px;
+    }
+    .l5d_comm table thead tr th:nth-child(1){
+        padding-right: 0 !important;
+    }
+}
+
+
+
+@media (min-width:1475px) and (max-width:1575px){
+    .table_wrp2{
+        height: 285px;
+    }
+    .welcometxt{
+        font-size: 20px !important;
+    }
+    .userLogin_details .green_txt,
+    .camunity_m_wrp .green_txt{
+        font-size: 18px;
+    }
+    .rewardTable thead tr th:nth-child(1){
+        width: 120px;
+    }
+    .curved_div h5{
+        font-size: 18px;
+    }
+    .curved_div p{
+        font-size: 14px;
+    }
+    .table_font tbody tr td, .table_font thead tr th {
+        font-size: 11px !important;
+    }
+    .table_wrp .v-data-table > .v-data-table__wrapper > table > thead > tr > th,
+    .table_wrp .v-data-table > .v-data-table__wrapper > table > tbody > tr > td,
+    .table_wrp2 .v-data-table > .v-data-table__wrapper > table > thead > tr > th,
+    .table_wrp2 .v-data-table > .v-data-table__wrapper > table > tbody > tr > td{
+        padding: 0 5px !important;
+    }
+    .table_wrp thead tr th:nth-child(1){
+        width: 120px;
+    }
+    .table_heading,
+    .cd_heading{
+        font-size: 20px;
+    }
+    .opentraders_table table tbody tr td:nth-child(6){
+        white-space: nowrap;
+    }
+ 
+    .ac_security .red_txt,
+    .ac_security .red_txt i,
+    .ac_security .green_txt,
+    .ac_security .green_txt i{
+        font-size: 13px;
+    }
+    .ac_security .col{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .ac_security .v-btn{
+        height: 27px !important;
+        font-weight: normal;
+    }
+    .trading_fees .cd_txt2{
+        font-size: 12px;
+    }
+    .trading_fees h3{
+        font-size: 18px;
+    }
+    .opentraders_table{
+        padding-bottom: 0 ;
+    }
+    .expand_col .col-lg-6{
+        padding-top: 0 !important;
+    }
+    /* .top10_table_wrap{
+        padding-bottom: 30px !important;
+    } */
+ 
+}
+.userLogin_details p{
+    word-break: break-all !important;
+}
+@media (max-width:1300px){
+    .ac_security .red_txt,
+    .ac_security .red_txt i,
+    .ac_security .green_txt,
+    .ac_security .green_txt i{
+        font-size: 10px !important;
+    }
+    .ac_security button{
+        height: 27px !important;
+        font-size: 11px !important;
+    }
+    .ac_security a{
+        height: 27px !important;
+        font-size: 11px !important;
+    }
+}
+@media (min-width:1301px) and (max-width:1474px){
+    .ac_security .red_txt,
+    .ac_security .red_txt i,
+    .ac_security .green_txt,
+    .ac_security .green_txt i{
+        font-size: 12px !important;
+    }
+    .ac_security button{
+        height: 27px !important;
+        font-size: 12px !important;
+    }
+}
+
+
+@media (max-width:1474px){
+    .top10_table thead tr th{
+        padding: 15px 10px !important;
+    }
+ 
+    .rewardstable_bg{
+        height: calc(100% - 47px);
+    }
+    .table_wrp2{
+        height: 285px;
+    }
+    .welcometxt{
+        font-size: 16px !important;
+    }
+    .userLogin_details .green_txt,
+    .camunity_m_wrp .green_txt,
+    .camunity_m_wrp h6{
+        font-size: 14px;
+    }
+    .monthly_rank h6{
+        font-size: 12px;
+    }
+    .lev_Group p{
+        font-size: 11px;
+    }
+    .lev_Group h6{
+        font-size: 14px;
+    }
+    .curved_div p.bluet,
+    .curved_div p.redt,
+    .curved_div p.oranget,
+    .curved_div p.purplet{
+        font-size: 16px;
+    }
+    .curved_div h5{
+        font-size: 16px;
+    }
+    .curved_div p{
+        font-size: 14px;
+    }
+    .table_heading,
+    .cd_heading{
+        font-size: 18px;
+    }
+    .table_heading{
+        padding: 12px 20px;
+    }
+    .cd_heading{
+        padding: 5px 20px;
+    }
+    .rewardTable thead tr th:nth-child(1){
+        width: 120px;
+    }
+    .table_font tbody tr td, .table_font thead tr th {
+        font-size: 10px !important;
+    }
+    .opentraders_table table tbody tr td:nth-child(6){
+        white-space: nowrap;
+    }
+    /* .ac_security .red_txt,
+    .ac_security .red_txt i,
+    .ac_security .green_txt,
+    .ac_security .green_txt i{
+        font-size: 12px !important;
+    } */
+    .ac_security .v-btn{
+        height: 27px !important;
+        font-weight: normal;
+    }
+    .ac_security .cd_txt{
+        font-size: 11px !important;
+    }
+    .ac_security .col{
+        padding: 10px 10px !important;
+    }
+
+    .trading_fees .cd_txt2{
+        font-size: 12px;
+    }
+    .trading_fees h3{
+        font-size: 16px;
+    }
+    .opentraders_table table tbody tr td,
+    .opentraders_table table thead tr th{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .opentraders_table table tbody tr td:nth-child(5),
+    .opentraders_table table thead tr th:nth-child(5){
+        padding-right: 10px !important;
+    }
+
+    .opentraders_table{
+        padding-bottom: 10px;
+    }
+    .expand_col .col-lg-6{
+        padding-top: 0 !important;
+    }
+    .top10_table_wrap{
+        padding-bottom: 15px !important;
+    }
+    .top10_table_wrap table tbody tr td img[width="25"]{
+        width: 20px;
+    }
+
+    .table_wrp table tbody tr td,
+    .table_wrp table thead tr th{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .table_wrp2 .v-data-table > .v-data-table__wrapper > table > thead > tr > th:nth-child(1),
+    .table_wrp2 .v-data-table > .v-data-table__wrapper > table > tbody > tr > :nth-child(1){
+        width: 110px !important;
+    }
+    
+}
+
+.earn_commision{
+    position: absolute;
+    color: #F8E71C;
+    font-size: 50px;
+    font-weight: bold;
+    top: 11%;
+    left: 28%;
+    letter-spacing: -4px;
+}
+@media (max-width:1675px){
+    .earn_commision{
+        font-size: 40px;
+    }
+}
+
+
+
+.l5d_comm{
+    height: 194px;
+}
+.l5d_comm .table_1 table tbody tr td[colspan="4"],
+.opentraders_table .table_1 table tbody tr td[colspan="4"]{
+    height: 145px !important;
+    /* color: white; */
+}    
+.btn_height.v-size--default{
+    height: 28px !important;
+}
+.open_trades .table_1 table tbody tr td[colspan="5"]{
+    height: 220px !important;
+    /* color: white; */
+} 
+.rightPanel{
+    width:30% !important; 
+    float:left 
+}
+.lightPanel{ 
+    width:70% !important; 
+    float:left
+}
+
+@media (max-width:1475px){
+    .rightPanel{
+        width:32% !important;
+    }
+    .lightPanel{
+        width: 68% !important;
+    }
+}
+.ac_security button.v-size--default{
+    height: 28px !important;
+}

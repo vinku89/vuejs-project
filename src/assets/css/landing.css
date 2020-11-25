@@ -1,0 +1,471 @@
+@font-face {
+    font-family: 'bignoodle';
+    src: url("~@/assets/fonts/big_noodle_titling.ttf");
+}
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url("~@/assets/fonts/Gotham/Gotham-Bold.otf");
+}
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url("~@/assets/fonts/Gotham/Gotham-Book.otf");
+}
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url("~@/assets/fonts/Gotham/Gotham-Black.otf");
+}
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url("~@/assets/fonts/Gotham/Gotham-Light.otf");
+}
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url("~@/assets/fonts/Gotham/Gotham-Medium.otf");
+}
+.Gotham-bold {
+    font-family: 'Gotham-Bold' !important;
+}
+
+@media (max-width: 1400px){
+    .landing h1 {
+        font-size: 50px !important;
+        color: #3e3e3f;
+        font-family: 'Gotham-Bold';
+    }
+    .landing h2 {
+        font-size: 22px !important;
+        color: #3e3e3f;
+    }
+    .landing h3 {
+        font-size: 18px !important;
+        color: #3e3e3f;
+        font-family: 'Gotham-Book';
+    }
+    .landing .f-md-30{
+        font-size: 20px !important;
+    }
+}
+.landing {
+    font-family: 'Gotham-Medium' !important;
+}
+.landing h1 {
+    font-size: 70px;
+    color: #3e3e3f;
+    font-family: 'Gotham-Bold';
+}
+.landing h2 {
+    font-size: 26px;
+    color: #3e3e3f;
+}
+.landing h3 {
+    font-size: 20px;
+    color: #3e3e3f;
+    font-family: 'Gotham-Book';
+}
+.landing .f-md-30{
+    font-size: 30px;
+}
+
+.landing .top_bar {
+    color: #fff;
+    z-index: 999;
+}
+.landing .sticky {
+    background-color: #002617;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 5px;
+}
+.landing .banner_section_bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #4a3d5e;
+}
+.landing .banner_section_bg.tokenlisting {
+    background-image: url("~@/assets/images/website/Brexily-tokens-listing-bg.jpg");
+    padding-bottom: 0px;
+}
+.landing .banner_section_bg.tokenlisting .banner_section {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+@media (max-width: 991px) {
+    .landing .banner_section_bg.tokenlisting .banner_section {
+        padding-top: 90px;
+   }
+}
+.landing .banner_section_bg.tokenlisting .banner_section .banner_text {
+    color: #fff;
+    text-align: left;
+}
+.landing .banner_section_bg.tokenlisting .banner_section .banner_text h6.smallFont {
+    font-size: 30px;
+}
+@media (max-width: 767px) {
+    .landing .banner_section_bg.tokenlisting .banner_section .banner_text h6.smallFont {
+        text-align: center;
+   }
+}
+.landing .banner_section_bg.landing {
+    background-image: url("~@/assets/images/website/Brexily-main-banner.jpg");
+    padding-bottom: 100px;
+}
+.landing .banner_section_bg.landing .banner_section {
+    padding-top: 150px;
+    padding-bottom: 180px;
+}
+@media (max-width: 991px) {
+    .landing .banner_section_bg.landing .banner_section {
+        padding-top: 90px;
+   }
+}
+.landing .banner_section_bg.landing .banner_section .banner_text {
+    color: #fff;
+    text-align: left;
+}
+.landing .banner_section_bg.landing .banner_section .banner_text h6.smallFont {
+    font-size: 30px;
+}
+@media (max-width: 767px) {
+    .landing .banner_section_bg.landing .banner_section .banner_text h6.smallFont {
+        text-align: center;
+   }
+}
+.landing .evr_air_section {
+    background-color: #22e627;
+    padding: 10px;
+    color: #000;
+    font-size: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+@media (max-width: 1500px) {
+    .landing .evr_air_section {
+        font-size: 20px;
+   }
+}
+@media (max-width: 1300px) {
+    .landing .evr_air_section {
+        font-size: 16px;
+   }
+}
+
+@media (max-width: 991px) {
+    .landing .evr_air_section {
+        font-size: 12px;
+        padding: 0;
+   }
+}
+.landing .logo_reduce {
+    width: 150px;
+    -webkit-transition: width 2s !important;
+    transition: width 2s;
+}
+.landing .bigFont {
+    font-size: 120px;
+    text-shadow: 0 5px 4px #000;
+    font-family: 'bignoodle';
+    color: #22e627;
+    line-height: 1;
+}
+@media (max-width: 1499px) {
+    .landing .bigFont {
+        font-size: 80px;
+        padding-top: 0;
+   }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .landing .bigFont {
+        font-size: 50px;
+        padding-top: 0;
+   }
+}
+@media (max-width: 767px) {
+    .landing .bigFont {
+        font-size: 40px;
+        padding-top: none;
+        text-align: center;
+   }
+}
+.landing .user_login_btn {
+    padding: 0 0;
+    display: inline-block;
+    font-size: 15px;
+    font-style: italic !important;
+}
+.landing .user_login_btn_bordered {
+    border: solid 1px #fff;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: #fff !important;
+    padding: 5px 10px;
+    position: relative;
+    top: 7px;
+}
+.landing .user_login_btn_bordered:hover {
+    text-decoration: none;
+    color: #fff;
+}
+@media (max-width: 475px) {
+    .landing .user_login_btn_bordered {
+        padding: 3px 10px;
+        font-size: 12px;
+   }
+}
+.landing .user_login_btn_fillBtn {
+    background-color: #22e627;
+    color: #000 !important;
+    border-radius: 10px;
+    padding: 5px 10px;
+    position: relative;
+    top: 7px;
+}
+@media (max-width: 475px) {
+    .landing .user_login_btn_fillBtn {
+        padding: 4px 10px;
+        font-size: 12px;
+   }
+}
+.landing .user_login_btn_fillBtn:hover {
+    text-decoration: none;
+    color: #000;
+}
+.landing .applytoken.inlanding {
+    background-color: #22e627;
+    padding: 25px 0;
+}
+.landing .applytoken.inlanding .applytoken_link {
+    color: #05063b !important;
+    font-size: 24px !important;
+    border-radius: 10px !important;
+    border: 1px solid #05063b !important;
+    font-family: 'Gotham-Bold' !important;
+}
+.landing .applytoken.inlanding .applytoken_link:hover {
+    background-color: #05063b;
+    color: #22e627 !important;
+}
+.landing .applytoken.intokenlist {
+    background-color: #fff;
+    padding: 25px 0;
+}
+.landing .applytoken.intokenlist .applytoken_link {
+    color: #22e627 !important;
+    font-size: 24px !important;
+    border-radius: 40px !important;
+    border: 2px solid #22e627 !important;
+    font-family: 'Gotham-Bold' !important;
+}
+.landing .applytoken.intokenlist .applytoken_link:hover {
+    background-color: #22e627;
+    color: #05063b !important;
+}
+.landing .unique_features h2 {
+    font-size: 31px;
+    padding-top: 25px;
+}
+.landing .unique_features h3 {
+    font-size: 22px;
+    padding-top: 5px;
+}
+.landing .debitcard {
+    background-image: url("~@/assets/images/website/Brexily-spend-crypto-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.landing .btn-green-outline {
+    border: 1px solid #22e627;
+    color: #22e627;
+}
+.landing .btn-green-outline:hover {
+    background-color: #22e627;
+}
+.pdTop {
+    padding-top: 230px !important;
+}
+.white_color {
+    color: #fff !important;
+}
+.text_color {
+    color: #a399b1 !important;
+}
+.footer_section {
+    background-color: #07053a;
+    padding: 80px 0 30px;
+}
+@media (max-width: 991px){
+    .footer_section p{
+        font-size: 12px;
+    }
+}
+ 
+@media (max-width: 767px){
+    
+    .footer_section .footer_links{
+        display: block !important;
+    }
+
+    .footer_section .footer_links li{
+        margin: 15px auto;
+    }
+}
+
+.footer_section_social_links li {
+    list-style: none;
+    display: inline-flex;
+}
+@media (max-width: 576px){
+    .footer_section_social_links li a {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .footer_section_social_links li a i{
+        font-size: 20px !important;
+    }
+}
+.footer_section_social_links li a {
+    color: #05063b !important;
+    text-decoration: none;
+    border: 1px solid #22e627 !important;
+    background-color: #22e627 !important;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.footer_section_social_links li a i{
+    font-size: 28px
+}
+.footer_section_social_links li a:hover {
+    border: 1px solid #22e627 !important;
+    background-color: #05063b !important;
+    color: #22e627 !important;
+}
+@media (max-width: 767px) {
+    .footer_section {
+        text-align: center;
+   }
+}
+.footer_section ul.footer_links {
+    margin: 0;
+    padding: 0;
+}
+.footer_section ul.footer_links li {
+    list-style-type: none;
+    padding: 0px 5px;
+}
+/* @media (max-width: 991px){
+    .footer_section ul{
+        display: block;
+    }
+} */
+@media (max-width: 991px){
+    /* .footer_section ul{
+    } */
+    .footer_section ul.footer_links li {
+        list-style-type: none;
+        padding: 0px 5px;
+        font-size: 12px !important;
+        display: block;
+    }
+    .footer_section ul.footer_links li a{
+        font-size: 12px !important;
+    }
+}
+.footer_section ul.footer_links li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    line-height: 20px;
+    opacity: 1;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer_section ul.footer_links li a:hover {
+    color: #22e627 !important;
+}
+@media (max-width: 767px) {
+    .footer_section ul.footer_links li {
+        float: none;
+        padding: 0;
+   }
+}
+.footer_section .copyRight_txt {
+    padding: 65px 0;
+    font-size: 16px;
+    text-align: center;
+    color: #b1b1b1;
+}
+.btn-white-bordered {
+    border: 1px solid #fff !important;
+    border-radius: 30px !important;
+    color: #fff !important;
+}
+.btn-white-bordered:hover {
+    background-color: #fff !important;
+    color: #05063b !important;
+}
+
+.foot-linker{
+    color: #22e627 !important;
+}
+
+.access-err{
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.crpt_lis{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.loginbox .v-icon.login-close{
+    position: absolute;
+    right: 10px;
+    color: #000 !important;
+}
+
+@media (max-width: 767px){
+    .w-md-50{
+        width: 50% !important;
+    }
+}
+
+.terms_page ul li{
+    list-style-type: disc !important;
+}
+
+.terms_page ul li ul li{
+    list-style-type:circle !important;
+}
+
+.theme--dark.v-navigation-drawer {
+    background-color: #160030 !important;
+    width:20% !important;
+}
+
+@media (max-width:1670px){
+    .theme--dark.v-navigation-drawer {
+        width:25% !important;
+    } 
+}
+.frame-pt{
+    padding-top: 49px !important;
+}
+.frame-pl{
+    padding-left: 21% !important;
+}
+@media (max-width:1670px){
+    .frame-pl {
+        padding-left: 26% !important;
+    } 
+}

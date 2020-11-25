@@ -1,0 +1,782 @@
+.banner_gradiant{
+    background-image: linear-gradient(0deg, #4BA657 0%, #1E5049 60%, #00183F 100%);
+    height: 390px;
+    width: 100%;
+} 
+
+@media (max-width:1400px){
+    .banner_gradiant{
+        height:365px;
+    }
+    .banner-content{
+        margin: -125px 0 0 0 !important;
+    }
+}
+.brexco-banner-bg{
+    background: url(../images/brexco-banner-bg.png) no-repeat center center;
+    width:100%;
+    height: 155px;
+}
+.banner-content{
+    position: relative;
+    margin: -95px 0 0 0;
+}
+
+
+.banner-content h1{
+    color: #ffffff;
+    font-size: 50px !important;
+}
+.banner-content p{
+    color: #ffffff;
+    font-size: 18px !important;
+}
+.banner_white_patch{
+    background-color: #eceef1 !important;
+    border-radius: 10px 10px 0 0 ;
+    color: #000000;
+    padding: 15px;
+}
+@media (max-width:1249px){
+    .banner_white_patch{
+        width:85%;
+        margin: 0 auto;
+    }
+}
+.country-selection{
+    color: #000 !important;
+}
+.country-selection legend{
+    display: none;
+}
+.country-selection .v-icon{
+    color: #000 !important;
+}
+.country-selection .v-icon.primary--text{
+    color: #000 !important;
+}
+.country-selection-wrp{
+    /* width:450px */
+    width: 580px;
+}
+.country-selection input::placeholder {
+    color:#727272 !important;
+    opacity: 1;
+  }
+  .country-selection input{
+      color: #000 !important;
+      font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 15px !important;
+  }
+
+
+
+  .brexco_box{
+      background: #FFFFFF;
+      border: 1px solid #E2E2E2;
+      border-radius: 10px;
+      box-shadow:0 0 7px #797979;
+      text-align: center;
+      position: relative;
+      height: 100%;
+      padding-bottom: 50px;
+  }
+  .brexco_services_wrp .brexco_box h5{
+      font-size: 18px !important;
+  }
+  .brexco_box p{
+      color: #000 !important;
+      font-size: 16px !important;
+  }
+  .pay_btn{
+      text-align: center;
+      padding:10px;
+      border-radius: 0 0 10px 10px;
+      color: #ffffff !important;
+      text-transform: uppercase;
+      font-weight: bold !important;
+      display: block;
+      background-color: #1D013D;
+      position: absolute;
+      bottom: 0;
+      height: 50px;
+      width: 100%;
+      font-size: 18px !important;
+  }
+  .light-green-bg{
+      background-color: #EBFBEE;
+  }
+  .light-green-bg h5.ligreen_title{
+      font-size: 24px !important;
+  }
+  .light-green-bg h5{
+    font-size: 18px !important;
+}
+.light-green-bg p{
+    font-size: 16px !important;
+}
+.disable_box {
+    background-color: #6e7382;
+    position: absolute;
+    z-index: 2;
+    cursor: default;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    border-radius: 10px;
+  }
+  .disable_box_text h5,
+  .disable_box_text p,
+  .disable_box_text .pay_btn{
+      opacity: .4;
+  }
+  .disable_box_text:hover{
+    background-color:#fff !important;
+  }
+
+  .disable_box_text img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    opacity: .4;
+  }
+
+
+  .brexco_box:hover,
+  .brexco_box:focus,
+  .active_box,
+  .active_box2{
+    background-color: #CFF9DD; 
+  }
+  /* .brexco_services_wrp{
+      padding-bottom: 25px;
+  } */
+
+@media (min-width:1500px){
+    .brexco_services_wrp {
+        padding-top: 0 !important;
+    }
+    .brexco_services_wrp .utility_title{
+   padding-top: 20px !important;
+    }
+    .brexco_services_wrp .expand_icon{
+        top:24px !important;
+    }
+
+}
+
+  .brexco_services_wrp .v-expansion-panels .v-expansion-panel{
+    background-color: #eceef1 !important;
+  }
+  .brexco_services_wrp h5{
+      font-size: 24px !important;
+  }
+
+
+  .brexco_services_wrp button:hover{
+      background:transparent !important;
+  }
+  .brexco_services_wrp .expand_icon{
+    color: #14a719 !important;
+    background-color: #e1f3db;
+    width: 19px;
+    height: 19px;
+    border-radius: 4px;
+    position: absolute !important;
+    right: 100px !important;
+    top: 9px;
+  }
+  .brexco_services_wrp .expand_icon::after{
+    background-color:transparent !important;
+  }
+  .brexco_services_wrp .v-expansion-panel-content__wrap{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+  }
+  .tabs_bg{
+      background-color: #ffffff;
+      border-radius: 50px;
+  }
+  .tabs_bg .mbl_ser_tab{
+        border-radius: 50px;
+        background-color: #eceef1;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: bold;
+        display: block;
+        padding:15px 0;
+  }
+  .iconopen{
+    /* Safari */
+    -webkit-transform: rotate(-138deg);
+    /* Firefox */
+    -moz-transform: rotate(-138deg);
+    /* IE */
+    -ms-transform: rotate(-138deg);
+    /* Opera */
+    -o-transform: rotate(-138deg);
+  }
+  .tabs_bg .activeBtn{
+      background-color: #4ba657;
+      color: #ffffff !important;
+  }
+  /*.tabs_bg .inActiveBtn{
+    background-color: #f1f4f8;
+    color: #000000 !important;
+}*/
+
+.mblrld_select.IZ-select h3{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 15px !important;
+}
+.mblrld_select.IZ-select p{
+    font-size: 13px;
+    color:#7F868B;
+    margin-bottom: 0 !important;
+    line-height: 1.2;
+}
+.mblrld_select .IZ-select__item{
+    border-bottom:solid 1px #E2E2E2;
+}
+.mblrld_select .IZ-select__item:last-child{
+    border-bottom:none !important;
+}
+.mblrld_select .IZ-select__input input{
+    background-color: #fff ;
+    display: block;
+    cursor: pointer;
+}
+.mblrld_select .IZ-select__input{
+    color: #000;
+    background-color: #ffffff ;
+    height: 64px;
+    box-shadow: none;
+    position: relative;
+}
+.mblrld_select .IZ-select__input input::placeholder{
+    font-weight: bold !important;
+    color: #000;
+}
+.mblrld_select .cryptoLogo{
+    max-width:35px;
+    margin-right:10px;
+}
+.mbl_no legend{
+    display: none;
+}
+.mbl_no fieldset{
+    background-color: #ffffff;
+    height: 64px;
+}
+.mbl_no.v-text-field input{
+    color: #000000 !important;
+    padding-left: 110px !important;
+    font-size: 25px;
+    font-weight: bold;
+}
+.mbl_no .v-label{
+    color: #c3c3c3 !important;
+    left: 100px !important;
+    font-size: 25px;
+}
+.account_no legend{
+    display: none;
+}
+.account_no fieldset{
+    background-color: #ffffff;
+    height: 64px;
+}
+.account_no.v-text-field input{
+    color: #000000 !important;
+    font-size: 25px;
+    font-weight: bold;
+    width:100%;
+}
+.account_no .v-label{
+    color: #333 !important;
+    font-size: 25px;
+    font-weight: bold;;
+}
+
+.countryCode{
+    position: absolute;
+    top: -4px !important;
+    left: 1.2px;
+    background-color: #eceef1;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 14px 23px 10px;
+    border-radius: 4px 0 0 4px;
+    border-right: solid 1px #6cbf6b;
+}
+
+
+.avl_amt{
+    background-color: #fff;
+    padding: 40px 0;
+    border: solid 2px #d5d7da;
+    text-align: center;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avl_amt h2{
+    margin:0;
+    color: #000;
+    font-size: 25px !important;
+}
+@media (max-width:1575px){
+    .avl_amt h2{
+        font-size: 20px !important;
+    }
+}
+.avl_amt.active_amt{
+    background-color: #4BA657;
+    color: #ffffff !important; 
+}
+.avl_amt.active_amt h2{
+    color: #ffffff !important; 
+    font-weight: bold;;
+}
+.confirm_payment_bg{
+    background-color: #ffffff;
+    padding:20px;
+}
+.confirm_div1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.confirm_div1 .coinInfo{
+    color: #000000;
+    margin-right: 15px;
+}
+
+.confirm_div2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.confirm_div2 .coinInfo{
+    color: #000000;
+    margin-left: 15px;
+}
+.arrow_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow_wrap .arrowIcon{
+    color: #2c1c5f !important;
+    font-size: 40px !important;
+}
+.payment_calc_wrp{
+    margin: 0 auto;
+    width:600px !important;
+}
+.payment_calc_wrp table td{
+    border-top: 0 !important;
+    padding: 5px ;
+    font-size: 18px;
+}
+.payment_calc_wrp .border-bottom{
+    border-bottom: solid 3px #000 !important;
+}
+.payment_calc_wrp table td.f25{
+    font-size: 25px !important;
+}
+.transactionNotes textarea{
+    color: #000 !important;
+    border-bottom: solid 2px;
+}
+.transactionNotes .v-label{
+    color: #909194 !important;
+}
+.transactionNotes .v-label.primary--text{
+    color: #000 !important;
+}
+.transactionNotes .v-input__slot::before,
+.transactionNotes .v-input__slot::after{
+    border-color: #000 !important;
+    border-style: solid;
+    border-width:2px;
+}
+.transactionNotes.errorTxt .v-label{
+    color: red !important;
+}
+.transactionNotes.errorTxt .v-input__slot::before{
+    border-color: red !important;
+    border-style: solid;
+    border-width:2px;
+}
+
+.cancelBt,
+.cancelBt:hover{
+    background-color: #ffffff !important;
+    color: #000 !important;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 25%);
+}
+.error_msg{
+    background-color: #F8E71C;
+    position: relative;
+    border: solid 1px #DCC265;
+    color: #000;
+    text-align: center;
+    display: inline-block;
+    padding:10px 20px;
+    z-index: 2;
+}
+.error_msg.top_minus{
+    top: -51px;
+}
+.error_msg::after,
+.error_msg::before{
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: '';
+    height:0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.error_msg::after{
+    /* border-color: green; */
+    border-bottom-color:#f8e61b;
+    border-width: 12px;
+    margin-left:-12px;
+}
+.error_msg::before{
+    /* border-color: blueviolet; */
+    border-bottom-color:#DCC265;
+    border-width: 13px;
+    margin-left:-13px;
+}
+.custm_menuarrow{
+    color: #000 !important;
+    position: absolute !important;
+    top: 67px;
+    right: 30px;
+    font-size: 30px !important;
+}
+.confirmation2fa .theme--dark.v-sheet{
+    background-color: #fff !important;
+    color: #000;
+    padding: 20px;
+    border: solid 1px #22E627;
+}
+.confirmation2fa img{
+    width:70px
+}
+
+.confirmation2fa input {
+    margin: 0 5px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    outline: none;
+    width: 10%;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border-radius: 3px;
+    background-color: #2c1c5f;
+  }
+  /* .confirmation2fa input:focus {
+    border-color: purple;
+    box-shadow: 0 0 5px purple inset;
+  } */
+ .confirmation2fa input::-moz-selection {
+    background: transparent;
+  }
+ .confirmation2fa input::selection {
+    background: transparent;
+  }
+  .cntry_cury_simbl{
+    position: absolute;
+    left: 1px;
+    padding: 0;
+    background-color: #eceef1;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+    top: -4px;
+    border-radius: 3px 0 0 3px;
+    width: 100px;
+    text-align: center;
+    height: 61.5px;
+    line-height: 65px
+  }
+  .placeholder_p input,
+  .placeholder_p .v-label{
+      padding-left:100px !important
+  }
+  .brexco_bg{
+      background-color: #eceef1 !important;
+  }
+  .transactionTabs .v-tabs > .v-tabs-bar{
+    background: transparent !important;
+  }
+  .transactionTabs .v-tab{
+    background-color: #2f1c44 !important;
+    color: #b6a4ca !important;
+  }
+  .transactionTabs .v-tab.v-tab--active{
+   background: #21e627 !important;
+   color: #000 !important;
+   font-weight: bold !important;
+  }
+  .error_position{
+    position: absolute !important;
+    top: 62px;
+    left: 16%;
+  }
+  .oparator_logo{
+      width:50px;
+      height:50px;
+      border-radius: 50%;
+  }
+  .oparator_logo img{
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+  }
+  .enter_btn{
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    cursor: pointer;
+  }
+  .mbl_reload_noti .v-snack__wrapper{
+      width: 350px !important;
+  }
+
+.mbl_Bspace{
+    margin-bottom: 300px;
+}
+@media (max-width:1475px){
+     .mbl_Bspace .service-image{
+       height:90px !important
+     }
+     .mbl_Bspace .small_device_title{
+       font-size: 24px !important;
+     }
+}
+
+.selectInput .IZ-select__input{
+    border-width: 3px !important;
+    background-color: #EBFBEE;
+}
+.selmblnumber .v-text-field--outlined fieldset,
+.selmblnumber fieldset{
+    border-width: 3px !important;
+    background-color: #EBFBEE !important;
+}
+.selmblnumber .countryCode{
+    top: -2px !important;
+    left: 3.2px !important;
+    padding: 15px 23px 6.3px !important;
+}
+.mblrld_select .IZ-select__menu{
+    background-color: #fff;
+    border: 1px solid #4BA657;
+}
+.mblrld_select.IZ-select{
+    color: #000 !important;
+}
+.mblrld_select .IZ-select__item.IZ-select__item--selected {
+    color: #000000 !important;
+    background-color: #EBFBEE !important;
+}
+.mblrld_select .IZ-select__item:hover {
+    background-color: #EBFBEE !important;
+}
+.mblrld_select .IZ-select__item{
+    padding: 15px !important;
+}
+
+.v-menu__content::-webkit-scrollbar,
+.IZ-select__menu-items::-webkit-scrollbar{
+    width: 6px;
+    background-color: #ffffff;
+  } 
+  .v-menu__content::-webkit-scrollbar-thumb,
+  .IZ-select__menu-items::-webkit-scrollbar-thumb {
+    background-color: #22e628 !important    ;
+    border-radius: 10px;
+  }
+ .v-menu__content::-webkit-scrollbar-track,
+ .IZ-select__menu-items::-webkit-scrollbar-track {
+    /* -webkit-box-shadow: inset 0 0 6px #1c0c2f; */
+    background-color:transparent; 
+    /* box-shadow: inset 0 0 6px #1c0c2f; */
+  }
+  .country-selection-wrp h5{
+      font-size: 24px !important;
+  }
+  .country-selection-wrp .v-input--is-label-active fieldset{
+      background-color: #EBFBEE !important;
+      border-width: 3px;
+  }
+  .country-selection-wrp .v-text-field--outlined fieldse{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .country-selection-wrp .v-text-field--outlined.v-input--is-focused fieldset{
+      border-width: 3px !important;
+  }
+  .country-selection{
+      background-color: #ffffff !important;
+  }
+
+  .selectecountrydropwn .v-menu__content .v-list-item__title{
+    font-size: 16px !important;
+   }
+   .selectecountrydropwn .theme--dark.v-list{
+        background-color: #ffffff !important;
+   }
+   .selectecountrydropwn .theme--dark.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled){
+    color: #000 !important;
+   }
+   .selectecountrydropwn .theme--dark.v-list-item{
+    color: #000 !important;
+   }
+   .selectecountrydropwn .theme--dark.v-list-item:hover{
+       background-color: #EBFBEE !important;
+   }
+   .selectecountrydropwn .theme--dark.v-list-item:hover > .brexco_temp .theme--dark.v-list-item{
+    color: #4BA657 !important;
+}
+
+.brexco_temp .theme--dark.v-list-item.v-list-item--highlighted::before {
+    background-color: #EBFBEE !important;
+    opacity: .2;
+}
+.selectInput input{
+    display: none !important;
+}
+
+/* .mblrld_select .IZ-select__menu{
+    top: 65px !important;
+} */
+
+.mblrld_select .IZ-select__input:not(.IZ-select__input--disabled).IZ-select__input:not(.IZ-select__input--readonly):hover{
+    background-color: #fff !important;
+}
+.country-selection.v-text-field--outlined fieldset{
+    top: -1px !important;
+}
+.country-selection .v-input__append-inner{
+    cursor:  pointer !important;
+}
+.dark_green_txt{
+    color: #4f9e4f !important;
+}
+.mbl_no input::placeholder,
+.account_no input::placeholder {
+    color: #000 !important;
+    font-size: 18px !important;
+    line-height: 20px;
+    height: 40px;
+}
+
+.cryptofeilderr .IZ-select__input,
+.opError .IZ-select__input{
+    border-width: 3px !important;
+    background-color: #EBFBEE;
+    border-color: red !important;
+}
+.cryptofeilderr .IZ-select__input input::placeholder,
+.opError .IZ-select__input input::placeholder{
+    color: red;
+}
+
+.mblnoErrorclass .countryCode{
+    top: -2px !important;
+    left: 3.2px !important;
+    padding: 15px 23px 6.3px !important;
+}
+
+.mblnoErrorclass.v-text-field--outlined fieldset,
+.acctnoErrorclass.v-text-field--outlined fieldset{
+    border-color: red !important;
+    border-width: 3px;
+}
+.mblnoErrorclass input::placeholder,
+.acctnoErrorclass input::placeholder{
+    color: red !important;
+}
+.mblnoErrorclass .countryCode,
+.acctnoErrorclass .countryCode{
+    top: -2px !important;
+    left: 3.2px !important;
+    padding: 15px 23px 6.3px !important;
+}
+.account_no.v-text-field input::placeholder{
+    font-size: 20px;
+}
+
+
+
+.multi-spinner-container {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 30px auto;
+    overflow: hidden;
+  }
+  
+  .multi-spinner {
+    position: absolute;
+    width: calc(100% - 9.9px);
+    height: calc(100% - 9.9px);
+    border: 5px solid transparent;
+    border-top-color: #22e628;
+    border-radius: 50%;
+    -webkit-animation: spin 4s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
+    animation: spin 4s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
+  }
+
+  
+
+  @-webkit-keyframes spin {
+    -webkit-from {
+      -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    -webkit-to {
+      -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+  @-webkit-keyframes spin {
+    from {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes spin {
+    from {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+ 

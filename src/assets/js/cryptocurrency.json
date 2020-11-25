@@ -1,0 +1,197 @@
+ [{
+            "image": "./all/everus.png",
+          "name": "EVR",
+          "price": "159",
+          "Vol": "6.0",
+          "carbs": "-24%"
+        },
+        {
+          "image": "./all/bitcoin.png",
+          "name": "BTC",
+          "price": "237",
+          "Vol":" 9.0",
+          "carbs": "-37%"
+        },
+        {
+          "image": "./all/currency_ltc.png",
+          "name": "LTC",
+          "price": "262",
+          "Vol": "16.0",
+          "carbs": "+23%"
+        },
+        {
+          "image": "./all/everus.png",
+        "name": "EVR",
+        "price": "159",
+        "Vol": "6.0",
+        "carbs": "-24%"
+      },
+      {
+        "image": "./all/bitcoin.png",
+        "name": "BTC",
+        "price": "237",
+        "Vol":" 9.0",
+        "carbs": "-37%"
+      },
+      {
+        "image": "./all/currency_ltc.png",
+        "name": "LTC",
+        "price": "262",
+        "Vol": "16.0",
+        "carbs": "+23%"
+      },{
+        "image": "./all/everus.png",
+      "name": "EVR",
+      "price": "159",
+      "Vol": "6.0",
+      "carbs": "-24%"
+    },
+    {
+      "image": "./all/bitcoin.png",
+      "name": "BTC",
+      "price": "237",
+      "Vol":" 9.0",
+      "carbs": "-37%"
+    },
+    {
+      "image": "./all/currency_ltc.png",
+      "name": "LTC",
+      "price": "262",
+      "Vol": "16.0",
+      "carbs": "+23%"
+    },{
+      "image": "./all/everus.png",
+    "name": "EVR",
+    "price": "159",
+    "Vol": "6.0",
+    "carbs": "-24%"
+  },
+  {
+    "image": "./all/bitcoin.png",
+    "name": "BTC",
+    "price": "237",
+    "Vol":" 9.0",
+    "carbs": "-37%"
+  },
+  {
+    "image": "./all/currency_ltc.png",
+    "name": "LTC",
+    "price": "262",
+    "Vol": "16.0",
+    "carbs": "+23%"
+  },{
+    "image": "./all/everus.png",
+  "name": "EVR",
+  "price": "159",
+  "Vol": "6.0",
+  "carbs": "-24%"
+},
+{
+  "image": "./all/bitcoin.png",
+  "name": "BTC",
+  "price": "237",
+  "Vol":" 9.0",
+  "carbs": "-37%"
+},
+{
+  "image": "./all/currency_ltc.png",
+  "name": "LTC",
+  "price": "262",
+  "Vol": "16.0",
+  "carbs": "+23%"
+},{
+  "image": "./all/everus.png",
+"name": "EVR",
+"price": "159",
+"Vol": "6.0",
+"carbs": "-24%"
+},
+{
+"image": "./all/bitcoin.png",
+"name": "BTC",
+"price": "237",
+"Vol":" 9.0",
+"carbs": "-37%"
+},
+{
+"image": "./all/currency_ltc.png",
+"name": "LTC",
+"price": "262",
+"Vol": "16.0",
+"carbs": "+23%"
+},
+{
+  "image": "./all/bitcoin.png",
+  "name": "BTC",
+  "price": "237",
+  "Vol":" 9.0",
+  "carbs": "-37%"
+},
+{
+  "image": "./all/currency_ltc.png",
+  "name": "LTC",
+  "price": "262",
+  "Vol": "16.0",
+  "carbs": "+23%"
+},{
+  "image": "./all/everus.png",
+"name": "EVR",
+"price": "159",
+"Vol": "6.0",
+"carbs": "-24%"
+},
+{
+"image": "./all/bitcoin.png",
+"name": "BTC",
+"price": "237",
+"Vol":" 9.0",
+"carbs": "-37%"
+},
+{
+"image": "./all/currency_ltc.png",
+"name": "LTC",
+"price": "262",
+"Vol": "16.0",
+"carbs": "+23%"
+},{
+"image": "./all/everus.png",
+"name": "EVR",
+"price": "159",
+"Vol": "6.0",
+"carbs": "-24%"
+},
+{
+"image": "./all/bitcoin.png",
+"name": "BTC",
+"price": "237",
+"Vol":" 9.0",
+"carbs": "-37%"
+},
+{
+"image": "./all/currency_ltc.png",
+"name": "LTC",
+"price": "262",
+"Vol": "16.0",
+"carbs": "+23%"
+},{
+"image": "./all/everus.png",
+"name": "EVR",
+"price": "159",
+"Vol": "6.0",
+"carbs": "-24%"
+},
+{
+"image": "./all/bitcoin.png",
+"name": "BTC",
+"price": "237",
+"Vol":" 9.0",
+"carbs": "-37%"
+},
+{
+"image": "./all/currency_ltc.png",
+"name": "aaaa",
+"price": "262",
+"Vol": "16.0",
+"carbs": "+23%"
+}
+    ]

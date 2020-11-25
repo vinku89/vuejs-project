@@ -1,0 +1,366 @@
+.forgot-pass {
+    position: absolute;
+    right: 28px;
+    top: 135px;
+}
+.forgot-pass a {
+    color: #22e627 !important;
+    font-weight: bold;
+}
+.loginbox_wrap.v-navigation-drawer {
+    background-color: #f5f2f7 !important;
+}
+.loginbox .titl {
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 25px;
+    display: inline-block;
+}
+.loginbox .v-tabs-items {
+    background-color: #f5f2f7 !important;
+}
+.loginbox .v-text-field--outlined:not(.v-input--is-focused):not(.v-input--has-state) > .v-input__control > .v-input__slot fieldset {
+    border-color: #b9b9b9 !important;
+}
+.loginbox .v-label {
+    color: #828282 !important;
+}
+.loginbox .v-text-field--outlined:not(.v-input--is-focused):not(.v-input--has-state) > .v-input__control > .v-input__slot:hover fieldset {
+    color: #22e627 !important;
+}
+.loginbox .v-input input {
+    color: #000 !important;
+}
+.loginbox .v-icon {
+    color: #848484 !important;
+}
+input:-internal-autofill-selected {
+    background-color: transparent !important;
+}
+
+
+.watermark {
+    width: 100%;
+    max-width: 250px;
+    right: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+@media (max-width:1400px){
+    .watermark {
+        width: 100%;
+        max-width: 150px;
+        right: 0;
+        position: absolute;
+        bottom: 0;
+    }    
+}
+
+@media (max-height: 750px){
+    .watermark {
+        display: none;
+    }
+}
+
+
+.loginbox .v-btn.v-btn--disabled:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
+    background-color: #d6d6d6 !important;
+    opacity: 1 !important;
+}
+.loginbox .v-btn.v-btn--disabled {
+    opacity: 1;
+}
+.loginbox .v-btn.v-btn--disabled:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
+    background-color: #d6d6d6 !important;
+}
+.loginbox .buttons input[type="submit"]:hover, button:hover {
+    background: none repeat scroll 0 0 #38133b;
+    color: #fff !important;
+}
+.loginbox .v-tabs > .v-tabs-bar .v-tab:not(.v-tab--active) {
+    color: #918e94;
+}
+.loginbox .v-window-item--active{
+    padding-top:0 !important;
+}
+
+
+
+/* New User registration styles */
+
+.new_login_bg{
+    background: url(../images/login-bg.png) no-repeat center center;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.new_login_wrp{
+    width: 390px;
+    height: auto;
+    margin: 0 auto; 
+    margin-bottom: 30px;
+    transition: ease-in 0.3s;
+}
+.userregistration_box{
+    background-color: white;
+    border-radius: 6px !important;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.userregistration_box ul{
+    margin:0;
+    padding:0 !important;
+    display: flex;
+}
+.userregistration_box ul li{
+    width:50%;
+}
+.userregistration_box ul li a{
+    background-color: #003C4F;
+    color: #8CA7B0 !important;
+    text-align: center;
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px 0;   
+}
+.userregistration_box ul li a.activeTab{
+    background-color: #ffffff;
+    color: #21D228 !important;
+}
+.userregistration_box ul li a.radius_left{
+    border-radius: 6px 0 0 0;
+}
+.userregistration_box ul li a.radius_right{
+    border-radius: 0 6px 0 0;
+}
+
+.transparent-body {
+    background: transparent
+  }
+  .userregistration_box .theme--dark.v-tabs > .v-tabs-bar .v-tab:not(.v-tab--active), .theme--dark.v-tabs > .v-tabs-bar .v-tab:not(.v-tab--active) > .v-icon, .theme--dark.v-tabs > .v-tabs-bar .v-tab--disabled{
+     color: rgba(255, 255, 255, 0.6) !important; 
+     font-size: 18px !important;
+     font-weight: bold;
+  } 
+
+
+  .userregistration_box .theme--dark.v-sheet{
+      background-color: white !important;
+      color: #000 !important;
+  }
+  .userregistration_box .theme--dark.v-toolbar.v-sheet{
+      height: 60px !important;
+  }
+  .userregistration_box .v-tab--active{
+    color: #21D228 !important;
+    background-color: #fff !important;
+    font-size: 18px !important;
+    font-weight: bold;
+  }
+  .userregistration_box .theme--dark.v-card > .v-card__text{
+    color: #000 !important;
+  }
+  .userregistration_box .v-card:not(.v-sheet--tile):not(.v-card--shaped){
+      border-radius: 6px !important;
+      height: auto;
+  }
+
+  .userregistration_box .v-tabs-slider-wrapper{
+    display: none;
+  }
+  .userregistration_box .v-slide-group__wrapper{
+      border-radius: 6px 6px 0 0 !important;
+  }
+  .userregistration_box .v-toolbar__extension{
+    background-color: #003C50 !important;
+    border-radius: 6px 6px 0 0 !important;
+    color: #fff !important;
+    height: 60px !important;
+  }
+  .userregistration_box .theme--dark.v-tabs-items{
+    background-color: white !important;
+  }
+  .userregistration_box .v-tab{
+      width: 50%;
+  }
+  .userregistration_box .box_title_bg{
+      background: url(../images/login-title-bg.png) no-repeat center center;
+      height: 325px;
+      position: relative;
+      transition: ease-in 0.3s;
+  }
+  .userregistration_box .box_title_bg .box_title{
+    position: absolute;
+    top: 120px;
+    left: 15px;
+    color: #fff;
+  }
+  .userregistration_box .box_title_bg .box_title p{
+      margin:0;
+      font-size: 20px;
+      font-weight: normal;
+  }
+  .userregistration_box .box_title_bg .box_title h1{
+    margin:0; 
+    font-weight: bold;
+}
+.userregistration_form_wrp{
+    padding:40px;
+    color:#000 !important;
+}
+.userregistration_form_wrp input::placeholder{
+    color: #000 !important;
+    opacity: 0.8 !important;
+}
+.userregistration_form_wrp p{
+    padding-left: 10px;
+    font-weight: bold;
+    margin-bottom: 8px !important;
+}
+.userregistration_form_wrp .v-text-field--outlined legend{
+    display: none;
+}
+.userregistration_box .theme--dark.v-label{
+    color: rgba(0, 0, 0, 0.4) !important;
+}
+.userregistration_box .theme--dark.v-input:not(.v-input--is-disabled) input{
+    color: #000000 !important;
+}
+
+a.forgot_psw{
+   display: block;
+   text-align: right;
+   font-weight: bold;
+   color: #21D228 !important;
+   text-decoration: none;
+}
+.userregistration_box .v-text-field.v-text-field--enclosed .v-text-field__details{
+    margin-bottom: 0;
+}
+.userregistration_form_wrp .v-icon{
+    color: #a9a9a9 !important;
+}
+.theme--dark .v-application .userregistration_box .primary--text{
+    color: #a9a9a9 !important;
+}
+.loginbox_footer{
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+.loginbox_footer a{
+    color: #fff !important;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.loginbox_footer a:hover{
+    color: #000 !important;
+}
+.verify_code input{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #403552;
+    color: #21D228 !important;
+    max-height:50px !important;
+}
+.verify_code fieldset{
+    background-color: #403552 !important;
+}
+.userregistration_box .verify_code .theme--dark.v-label{
+    color: rgba(255, 255, 255, 0.45) !important;
+    text-align: center !important;
+    width: 100%;
+}
+.userregistration_box  .verify_code.theme--dark.v-input:not(.v-input--is-disabled) input{
+    color: #21D228 !important;
+}
+
+.twofa_txt{
+    font-weight: normal !important;
+    text-align: center;
+    color: #616161;
+}
+.recover_psw_msg{
+    padding: 20px;
+    text-align: center;
+}
+.signup_msg{
+    padding: 20px;
+    text-align: center;
+    color: #000;
+}
+.signup_msg h6{
+    line-height: 25px;
+}
+.userregistration_box .alert_txt.theme--dark.v-sheet{
+    color: #ff5252  !important;
+    background-color: #38133b !important;
+    text-align: left !important
+}
+.reg_logo{
+    text-align: right;
+}
+
+@media (max-width:1368px){
+    .userregistration_box .box_title_bg{
+        background: url(../images/mobile-view.png) no-repeat center center;
+        height: 236px;
+        position: relative;
+    }
+    .new_login_wrp{
+        width:300px;
+    }
+    .userregistration_box .box_title_bg .box_title h1.f40,
+    .userregistration_box .box_title_bg .box_title h1.f30{
+        font-size: 20px !important;
+    }
+    .userregistration_box .box_title_bg .box_title p{
+        font-size: 16px;
+    }
+    .userregistration_box .box_title_bg .box_title{
+        top: 90px !important;
+    }
+    .userregistration_box ul li a{
+        font-size: 20px;
+    }
+    .userregistration_form_wrp{
+        padding:20px !important;
+    }
+    .userregistration_form_wrp button{
+        font-size: 14px !important;
+    }
+  }
+  @media (max-width:768px){
+    .reg_logo{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .reg_logo img{
+        height: 80px;
+    }
+  }
+
+  /* .grecaptcha-badge{
+      position:  relative !important;
+      right: 0 !important;
+      width: 263px !important;
+  }
+  .grecaptcha-badge iframe{
+    width: 263px !important;
+  }
+  @media (max-width:1375px){
+    .grecaptcha-badge{
+        position:  relative !important;
+        right: 0 !important;
+        width: 220px !important;
+    }
+    .grecaptcha-badge iframe{
+      width: 220px !important;
+    }
+  } */

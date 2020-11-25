@@ -1,0 +1,1043 @@
+.carousel_slider {
+    background-color: #1D013D;
+    margin-bottom: 10px;
+}
+.carousel_slider .v-btn:before {
+    background-color: transparent !important;
+}
+.carousel_slider .v-btn:not(.v-btn--text):not(.v-btn--outlined).v-btn--active:before {
+    border-bottom: none !important;
+}
+ul.crypto_tabs {
+    margin: 0;
+    padding: 0 !important;
+    display: flex;
+}
+ul.crypto_tabs li {
+    padding: 10px 0px;
+    color: #ffffff;
+    text-align: center;
+    border-right: solid 1px #483a58;
+    border-bottom: solid 1px #483a58;
+    font-size: 13px;
+    /* width:100%; */
+    cursor: pointer;
+}
+ul.crypto_tabs li:hover {
+    background-color:#5c4c6e !important;
+    color:#fff !important;
+}
+ul.crypto_tabs li:last-child {
+    width: 100%;
+    padding: 0;
+}
+
+ul.crypto_tabs .v-overflow-btn {
+    margin-top: 0px !important;
+}
+/* ul.crypto_tabs .v-overflow-btn:hover {
+    background-color: #160030;
+} */
+.v-list-item__title{
+    font-size: 12px !important;
+}
+/* ul.crypto_tabs .theme--dark.v-overflow-btn:hover .v-input__slot{
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border-radius: 0;
+} */
+
+ ul.crypto_tabs li:last-child:hover > .v-overflow-btn .v-label,
+ ul.crypto_tabs li:last-child:hover > .v-overflow-btn .v-select__selection--comma:first-child{
+    /* background-color: #ffffff !important;
+    color: #000000 !important; */
+    background-color:#5c4c6e !important;
+    color:#fff !important;
+} 
+ul.crypto_tabs li:last-child:hover > .v-overflow-btn .v-icon{
+    color: #000000 !important;
+} 
+ul.crypto_tabs li:last-child > .v-overflow-btn .v-label{
+    font-size: 12px !important;
+    margin-left: 0 !important;
+    color: #ffffff !important;
+    text-transform: uppercase;
+}
+ul.crypto_tabs li:last-child{
+    cursor:  pointer !important;
+}
+
+ul.crypto_tabs .theme--dark.v-overflow-btn:hover .v-input__slot {
+    background-color: transparent !important;
+}
+ul.crypto_tabs .v-input__control {
+    height: 35px !important;
+}
+ul.crypto_tabs .theme--dark.v-select .v-select__selections {
+    color: #ffffff;
+    border-radius: 0;
+}
+ul.crypto_tabs li.crypto_dropdn .v-autocomplete.v-select.v-input--is-focused input{
+   min-width: 20px !important;
+}
+
+ul.crypto_tabs li.crypto_dropdn{
+    background-color: white;
+} 
+ul.crypto_tabs li.crypto_dropdn .theme--dark.v-select .v-select__selection--comma,
+ul.crypto_tabs li.crypto_dropdn .v-icon{
+    color: #000000 !important;
+}
+
+ul.crypto_tabs .v-overflow-btn .v-select__slot {
+    height: 39px !important;
+    box-shadow: none !important;
+}
+ul.crypto_tabs .theme--dark.v-overflow-btn .v-input__slot {
+    border-color: transparent !important;
+    padding: 0 10px !important;
+}
+ul.crypto_tabs .theme--dark.v-overflow-btn.v-input--is-focused .v-input__slot {
+    background: transparent;
+    margin-bottom: 0 !important;
+    height: 40px !important;
+    max-height: 40px !important;
+    min-height: 40px !important;
+}
+ul.crypto_tabs .v-overflow-btn .v-select__selection--comma {
+    font-size: 12px;
+}
+ul.crypto_tabs .v-overflow-btn .v-select__selection--comma:first-child {
+    margin-left: 5px;
+    margin-top:3px;
+}
+ul.crypto_tabs .v-overflow-btn .v-input__append-inner {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top:-1px;
+}
+@media (max-width:1375px){
+    ul.crypto_tabs .v-overflow-btn .v-input__append-inner{
+        right:0;
+    }
+}
+body,
+html {
+    height: 100% !important;
+    margin:0;
+}
+.coinlisting_wrp {
+    position: relative;
+    height: calc(100% - 107px);
+    overflow: hidden;
+}
+.coinlisting_wrp .v-chip.v-size--default{
+    font-size: 13px !important;
+    height: 26px;
+    border-radius: 0;
+    padding:0 5px 0 0;
+}
+/* .dashboard_wrapper {
+    height: calc(100% - 65px) !important;
+}
+.dashboard_wrapper .v-content__wrap{
+    height: 100% !important;
+} */
+
+
+.coinlisting_wrp .theme--dark.v-data-table,
+.coinlisting_wrp .theme--dark.v-data-table.v-data-table--fixed-header thead th {
+    background-color: #16002f !important;
+}
+.coinlisting_wrp .v-data-table-header__icon {
+    opacity: 1;
+}
+.coinlisting_wrp .theme--dark.v-chip:not(.v-chip--active) {
+    background: transparent;
+}
+.coinlisting_wrp .theme--dark.v-label {
+    top: 3px;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.coinlisting_wrp .v-data-table td {
+    /* height: 40px */
+    height: 29px !important;
+    line-height: 25px; 
+}
+.coinlisting_wrp .theme--dark.v-data-table tbody tr:hover:not(.v-data-table__expanded__content) {
+    background: #ffffff;
+    color: #ffffff ;
+}
+.coinlisting_wrp .theme--dark.v-data-table tbody tr:hover .theme--dark.v-label {
+    color: #ffffff !important;
+}
+@media (min-width:1620px) {
+    .trade_screen .col-xl-3 {
+        -ms-flex: 0 0 20%;
+        -webkit-box-flex: 0;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .trade_screen .col-xl-6 {
+        -ms-flex: 0 0 60%;
+        -webkit-box-flex: 0;
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+}
+.trade_history {
+    height: 100% !important;
+    width: 100%;
+    padding-bottom: 50px !important;
+}
+.trade_history.v-data-table td{
+    height: 26px !important;
+    line-height: 26px !important;
+}
+
+.trade_history.v-data-table tbody tr:hover{
+    color: #ffffff !important;
+}
+
+.trade_history.v-data-table td:nth-child(2){
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.trade_history.v-data-table,
+.trade_history.v-data-table.v-data-table--fixed-header thead th{
+   background: #1D013D !important;
+}
+.trade_history.theme--dark.v-data-table .v-data-table__empty-wrapper td{
+    height:250px !important;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+}
+.trade_history.theme--dark.v-data-table .v-data-table__empty-wrapper td:hover{
+    background-color: #1D013D !important;
+}
+
+.trade_wrp_height {
+    /* height: calc(100% - 440px) !important; */
+    height: calc(100% - 2px) !important;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 10px;
+}
+@media (max-width:1475px){ 
+    .trade_wrp_height {
+        /* height: calc(100% - 360px) !important; */
+        height: calc(100% - 2px) !important;
+    }
+}
+
+.trade_wrp_height h5{
+    font-size: 18px !important; 
+}
+.trade_wrp_height2 {
+    height: 100% !important;
+    overflow: hidden;
+}
+.trade_history .v-chip {
+    background: transparent !important;
+    padding: 0 !important;
+}
+/* Scroll bar styles */
+
+.vuebar-element {
+    padding-bottom: 10px;
+}
+.coinList_scroll {
+    width: 100%;
+    padding-bottom: 10px;
+    height: 100%;
+}
+.coinList_scroll .v-data-table__wrapper{
+    height: 100%;
+    width: calc(100% + 20px) !important;
+}
+
+
+.vb>.vb-dragger {
+    z-index: 1;
+    width: 10px;
+    right: -2px;
+}
+.vb>.vb-dragger>.vb-dragger-styler {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: rotate3d(0, 0, 0, 0);
+    transform: rotate3d(0, 0, 0, 0);
+    -webkit-transition:
+        background-color 100ms ease-out,
+        margin 100ms ease-out,
+        height 100ms ease-out;
+    transition:
+        background-color 100ms ease-out,
+        margin 100ms ease-out,
+        height 100ms ease-out;
+    background-color: #22E627;
+    margin: 30px 5px 5px 0;
+    border-radius: 20px;
+    /* height: calc(100% - 5px); */
+    height: calc(100% - 45px);
+    display: block;
+    opacity: 1;
+    /* min-height: 50px; */
+}
+
+.vb.vb-scrolling-phantom>.vb-dragger>.vb-dragger-styler {
+    background-color: #22E627;
+}
+.vb>.vb-dragger:hover>.vb-dragger-styler {
+    margin: 0px;
+    /* height: 100%; */
+    width: 5px;
+}
+.vb.vb-dragging>.vb-dragger>.vb-dragger-styler {
+    margin: 0px;
+    /* height: 100%; */
+}
+.vb.vb-dragging-phantom>.vb-dragger>.vb-dragger-styler {
+    /* background-color: blue; */
+    width:8px;
+}
+.vb>.vb-dragger{
+    display: block;
+}
+.vb:hover>.vb-dragger{
+    display: block;
+}
+
+.vb-content{overflow:auto!important}
+
+
+
+.selected_crypto_wrp{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.selected_crypto_wrp img{
+    margin-right:10px;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+.selected_crypto_wrp .selected_crypto h5{
+    color: #ffffff;
+    font-weight: 500;
+    margin:0;
+    padding:0;
+    font-size: 13px;
+}
+.selected_crypto_wrp .selected_crypto h6{
+    color: #ffffff;
+    font-weight: bold;
+    margin:0;
+    padding:0;
+    font-size: 13px;
+}
+ul.selected_coinInfo_wrp{
+    margin:0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+ul.selected_coinInfo_wrp li{
+    list-style-type: none;
+    border-right:solid 1px #6a5b7b;
+    padding:0 35px;
+    color: #ffffff;
+}
+@media (max-width:1620px){
+    ul.selected_coinInfo_wrp li{
+        padding:0 25px;
+    }
+}
+@media (max-width:1570px){
+    ul.selected_coinInfo_wrp li{
+        padding:0 15px;
+    }
+}
+ul.selected_coinInfo_wrp li h5{
+    font-weight: bold;
+    line-height: 46px;
+    margin: 0;
+    font-size: 13px;
+}
+ul.selected_coinInfo_wrp li p{
+    font-weight: normal;
+    padding:0;
+    margin:0;
+    font-size: 15px;
+    text-align: center;
+    font-size: 13px;
+}
+.middle_content_scroll{
+    width: 100%;
+    padding-bottom: 10px;
+    /* height: calc(100% - 86px); 
+    padding-right:15px;*/
+}
+.chart_bg{
+    background: #1D013D;
+}
+
+/*=========== Buy Sell section styles========== */
+.buy_col{
+ display: block;
+}
+.buy_col h4{
+    font-weight: bold;
+    color: #ffffff;
+    float: left;
+    font-size: 18px;
+}
+.buy_col .available_bal{
+    float: right;
+}
+@media (max-width:1300px){
+    .buy_col .available_bal{
+        display: block;
+    }
+    .buy_col h5{
+        float:none;
+        display: block;
+    }
+    .v-data-table td, .v-data-table th{
+        padding: 0 5px !important;
+    }
+}
+.buy_col .available_bal p{
+    margin:0;
+    padding:0;
+    color: #979797;
+    line-height: 30px;
+    font-size: 13px;
+}
+
+.form_field_row p{
+    font-size: 13px !important;
+}
+
+.form_field_row {
+    position: relative;
+    margin-bottom: 15px;
+}
+.form_field_row p{
+    margin-bottom:0;
+    padding:0;
+}
+
+.form_field_row legend{
+    display: none !important;
+}
+.crypto_name{
+    position: absolute;
+    top:4px;
+    right: 20px;
+    font-size:14px;
+    color: #6b4a90;
+}
+.txt_field_brdr .theme--dark.v-text-field--outlined fieldset{
+    border-color: #21e627;
+}
+.txt_field_brdr .theme--dark.v-input:not(.v-input--is-disabled) input{
+    color: #21e627;
+    font-size: 13px;
+}
+.txt_field_brdr .theme--dark.v-label{
+    color: #21e627;
+    font-size: 13px;
+}
+.txt_field_bg .theme--dark.v-text-field--outlined fieldset{
+    border-color: transparent;
+    background-color: #2e124e;
+}
+.txt_field_bg .theme--dark.v-label{
+    color: #ffffff;
+    font-size: 13px;
+}
+.txt_field_bg .theme--dark.v-input:not(.v-input--is-disabled) input{
+    color: #ffffff;
+    font-size: 13px;
+}
+.sell_txt_field_brdr .theme--dark.v-text-field--outlined fieldset{
+    border-color: #ff0000;
+}
+.sell_txt_field_brdr .theme--dark.v-input:not(.v-input--is-disabled) input{
+    color: #ff0000;
+    font-size: 14px;
+}
+.sell_txt_field_brdr .theme--dark.v-label{
+    color: #ff0000;
+    font-size: 14px;
+}
+.form_field_row .v-text-field--outlined > .v-input__control > .v-input__slot{
+    min-height:30px
+}
+.form_field_row .v-text-field--outlined .v-label {
+    top: 3px !important;
+}
+
+/* =========Buy Sell Orders section styles ==========*/
+.buy_sell_orders{
+    margin: 0;
+    position: relative;
+}
+.buy_sell_orders .wrapper_bg{
+    background-color: #1D013D;
+    padding:5px;
+}
+.buyorder_wrp{
+    height: 300px;
+    width: 100%;
+}
+.buyorder_wrp.theme--dark.v-data-table .v-data-table__empty-wrapper td{
+    height:250px !important;
+    font-size: 13px
+}
+.buyorder_wrp.theme--dark.v-data-table .v-data-table__empty-wrapper td:hover{
+    background-color: #1D013D !important;
+}
+.sellorder_wrp{
+    height: 300px;
+    width: 100%;
+}
+.sellorder_wrp.theme--dark.v-data-table .v-data-table__empty-wrapper td{
+    height:250px !important;
+    font-size: 13px
+}
+.sellorder_wrp.theme--dark.v-data-table .v-data-table__empty-wrapper td:hover{
+    background-color: #1D013D !important;
+}
+.buysellorder_scroll{
+    padding-bottom: 10px;
+}
+.buysellorder_scroll2{
+    padding-bottom: 10px;
+}
+.buysellorder_scroll .v-data-table__wrapper,
+.buysellorder_scroll2 .v-data-table__wrapper{
+    /* height: calc(100% - 10px); */
+    height: 100%;
+}
+
+.buysellorder_table{
+    overflow: hidden;
+}
+.buyorder_wrp.theme--dark.v-data-table.v-data-table--fixed-header thead th,
+.buyorder_wrp.v-data-table,
+.sellorder_wrp.theme--dark.v-data-table.v-data-table--fixed-header thead th,
+.sellorder_wrp.v-data-table{
+    background: #1D013D !important;
+}
+.buyorder_wrp table tbody tr td:first-child{
+    color: #21e627 !important;
+}
+.sellorder_wrp table tbody tr td:first-child{
+    color: #ff0000 !important;
+}
+.buyorder_wrp.v-data-table td,
+.sellorder_wrp.v-data-table td{
+    height: 26px !important;
+    line-height:25px !important;
+}
+.v-data-table th{
+    height: 30px !important;
+}
+
+/* =========Order List styles here============*/
+.orderList_wrp{
+    height: 250px;
+    width: 100%;
+}
+
+.orderList_wrp.theme--dark.v-data-table .v-data-table__empty-wrapper td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    height: 200px !important;
+    vertical-align: middle;
+}
+.orderList_wrp.theme--dark.v-data-table .v-data-table__empty-wrapper td:hover{
+    background-color: #1D013D !important;
+}
+
+
+.orderList_table{
+    overflow: hidden;
+}
+.orderList_scroll{
+    padding-bottom: 10px;
+}
+.orderList_scroll .v-data-table__wrapper{
+    height: calc(100% - 8px) !important;
+}
+.orderList_wrp.theme--dark.v-data-table.v-data-table--fixed-header thead th,
+.orderList_wrp.v-data-table{
+    background: #1D013D !important;
+}
+.orderList_wrp.v-data-table td{
+    height: 26px !important;
+    line-height: 25px !important;
+}
+
+/* =========Order History styles here============*/
+.orderHistory_wrp{
+    height: 250px;
+    width: 100%;
+}
+.orderHistory_wrp.theme--dark.v-data-table .v-data-table__empty-wrapper td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    height: 200px !important;
+    vertical-align: middle;
+}
+.orderHistory_wrp.theme--dark.v-data-table .v-data-table__empty-wrapper td:hover{
+    background-color: #1D013D !important;
+}
+
+.orderHistory_table{
+    overflow: hidden;
+}
+.orderHistory_scroll{
+    padding-bottom: 10px;
+}
+.orderHistory_scroll .v-data-table__wrapper{
+    height: calc(100% - 8px) !important;
+}
+.orderHistory_wrp.theme--dark.v-data-table.v-data-table--fixed-header thead th,
+.orderHistory_wrp.v-data-table{
+    background: #1D013D !important;
+}
+.orderHistory_wrp.v-data-table td{
+    height: 26px !important;
+    line-height: 25px !important;
+    cursor: default !important;
+}
+
+
+.orderList_wrp.theme--dark.v-data-table tbody tr:hover:not(.v-data-table__expanded__content),
+.buyorder_wrp.theme--dark.v-data-table tbody tr:hover:not(.v-data-table__expanded__content),
+.sellorder_wrp.theme--dark.v-data-table tbody tr:hover:not(.v-data-table__expanded__content),
+.orderHistory_wrp.theme--dark.v-data-table tbody tr:hover:not(.v-data-table__expanded__content),
+.trade_history.theme--dark.v-data-table tbody tr:hover:not(.v-data-table__expanded__content){
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#vue-trading-view div{
+    width:98% !important;
+    margin: 0 auto !important;
+}
+#vue-trading-view div{
+    height:300px !important;
+}
+.chartview html.theme-dark .chart-page{
+    background-color: #16002e !important;
+    background-color: var(--tv-color-platform-background,#16002e) !important;
+}
+.chartview html.theme-dark .group-wWM3zP_M{
+    background-color: #16002e !important;
+    background-color:var(--tv-color-pane-background,#16002e) !important;
+}
+.vb-content{
+    padding-right: 18px !important;
+}
+
+.setActive{
+    background: #ffffff;
+    color: #000000 !important;
+
+}
+.coinlisting_wrp .setActive{
+    line-height: 25px;
+    height: 26px;
+}
+
+.setActive label {
+    color: #000 !important;
+}
+
+.for_trade_screen {
+    height:100% !important;
+}
+@media (max-width:1875px){
+    .v-data-table td{
+        font-size: 12px !important;
+    }
+    .v-data-table th{
+        font-size: 11px !important;
+    }
+    .trade_history .v-chip.v-size--default{
+        font-size: 12px !important;
+    }
+}
+@media (max-width:1620px){
+    .v-data-table td{
+        font-size: 14px ;
+    }
+   
+    /* .form_field_row .v-text-field--outlined > .v-input__control > .v-input__slot{
+        min-height: 35px !important;
+    } */
+  
+    .crypto_name {
+        position: absolute;
+        top: 4px;
+        right: 15px;
+        font-size: 14px;
+    }
+    .txt_field_bg .theme--dark.v-label,
+    .txt_field_bg .theme--dark.v-input:not(.v-input--is-disabled) input{
+        font-size: 14px !important;
+    }
+
+  
+
+}
+.v-data-table td,
+.v-data-table th{
+    font-size: 12px;
+    padding-left: 5px;
+}
+.buy_sell_orders h3{
+    font-size: 18px;
+}
+.circle_dot{
+    border-radius: 16px !important;
+    font-size: 14px !important;
+    height: 13px !important;
+    width: 13px;
+    padding: 0 5px;
+}
+.dot_green{
+    background-color: #22E627 !important;
+}
+.dot_red{
+    background-color: #ff0000 !important;
+}
+/* .trade_history{
+    height: 1030px !important;
+    
+} */
+
+.trade_history .v-data-table__wrapper{
+    height:100% !important;
+}
+/* .coinList_scroll .v-data-table__wrapper{
+    height:1434px !important; 
+} */
+
+.trade_header{
+    color: #fff !important;
+    font-size: 12px;
+}
+.coinListWrap{
+  /*  border-right: solid 1px #483a58 !important;*/
+    height: 100%;
+}
+.coinListWrap .theme--dark.v-data-table thead tr th,
+.coinListWrap .theme--dark.v-data-table tbody tr td{
+    padding-right:5px !important;
+}
+/* @media (max-width:1620px){
+    .trade_history .v-data-table__wrapper{
+           height:1185px !important;
+       }
+    /* .coinList_scroll .v-data-table__wrapper{
+        height:1434px !important; 
+    } 
+   } */
+
+   .coinListWrap .v-overlay__content,
+   .trade_wrp_height .v-overlay__content,
+   .middle_wrp .v-overlay__content{
+       position: absolute !important;
+       top: 250px !important;
+   }
+
+   .v-overlay__content{
+    position: absolute !important;
+    top: 250px !important;
+}
+   
+   .form_field_row .v-text-field input{
+    padding-top: 5px !important;
+   }
+   .volume p{
+       font-size:12px;
+       color: #fff;
+       margin:0;
+   }
+   @media (min-width:1621px){
+    .volume p{
+        font-size: 14px;
+    } 
+   }
+
+   .v-list-item__title{
+        font-size: 12px !important;
+    }
+
+
+    .middle_wrp{
+        margin-right: 410px;
+    }
+
+    .tradeHistory_col{
+        position: absolute;
+        right: 0;
+        height: 100%;
+        top: 0;
+        width: 400px;
+        border-left: solid 1px #483a58 !important;
+    }
+
+    @media (max-width:1475px){
+        .middle_wrp{
+            margin-right: 360px;
+        }
+        .tradeHistory_col{
+            width:350px
+        }
+    }
+
+    .v-data-table th{
+        line-height: 30px !important;
+       line-height: 30px !important;
+    } 
+    .v-data-table th.active{
+    display:block !important;
+    }
+    .crypto_names{
+        display: inline-flex;
+        align-items: center;
+    }
+    .crypto_names .v-image__image{
+        border-radius: 60% !important;
+    }
+    .price_col{
+        word-break: break-all;
+        line-height: 18px !important;
+    }
+
+    .coinlisting_wrp .coinList_scroll .v-data-table__wrapper table tbody tr td,
+    .buyorder_wrp .v-data-table__wrapper table tbody tr td,
+    .sellorder_wrp .v-data-table__wrapper table tbody tr td,
+    .crypto_names label,
+    .v-chip {
+        cursor:  pointer !important;
+    }
+
+    .trade_history .v-chip.v-size--default{
+        font-size:13px !important;
+        height: 15px !important;
+        border-radius: 0 !important;
+        }
+
+        .coinlisting_wrp .asc,
+        .coinlisting_wrp .desc{
+            width:100% !important;
+        }
+        .alert_div{
+            display: inline-block;
+        }
+        .alert_div .v-alert{
+            font-size: 14px !important;
+        }
+        .subText{
+            position: absolute;
+            left: 131px;
+            font-size: 11px;
+            top: 20px;
+            font-weight: normal;
+        }
+        .coinlist_div{
+            height: calc(100% - 50%);
+            position: relative;
+            margin-bottom: 10px;
+            background-color: #1e013d;
+            /* padding: 0 5px 5px; */
+        
+        }
+        .tradehistory_div{
+            height: calc(100% - 50%);
+            position: relative;
+            background-color: #1e013d;
+            padding: 0 5px 5px;
+        }
+        .middle_wrp{
+            padding-left: 20px;
+        }
+        .crypto_tabs .v-text-field__details{
+            display: none !important;
+        }
+.coinlisting_wrp .v-dialog button:hover{
+    background: transparent !important;
+}
+.coinlisting_wrp .v-data-table > .v-data-table__wrapper > table{
+    width: 95% !important;
+}
+.search_field .v-input input{
+    font-size: 13px;
+}
+.search_field .v-input .v-label{
+    font-size: 13px !important;
+}
+.trade_history.v-data-table > .v-data-table__wrapper > table > tbody > tr > td,
+.buyorder_wrp.v-data-table > .v-data-table__wrapper > table > tbody > tr > td,
+.sellorder_wrp.v-data-table > .v-data-table__wrapper > table > tbody > tr > td,
+.orderHistory_wrp.v-data-table>.v-data-table__wrapper>table>tbody>tr>td,
+.orderList_wrp.v-data-table>.v-data-table__wrapper>table>tbody>tr>td,
+.coinlisting_wrp .v-data-table > .v-data-table__wrapper > table > tbody > tr > td{
+    font-size: 13px !important;
+}
+.volume .v_text{
+    font-size: 13px !important;
+}
+.but_btn .v-btn.v-size--large{
+    font-size: 13px !important; 
+}
+
+
+@media (min-width:1475px) and (max-width:1875px) {
+    .trade_history.v-data-table > .v-data-table__wrapper > table > tbody > tr > td,
+    .buyorder_wrp.v-data-table > .v-data-table__wrapper > table > tbody > tr > td,
+    .sellorder_wrp.v-data-table > .v-data-table__wrapper > table > tbody > tr > td,
+    .orderHistory_wrp.v-data-table>.v-data-table__wrapper>table>tbody>tr>td,
+    .orderList_wrp.v-data-table>.v-data-table__wrapper>table>tbody>tr>td,
+    .coinlisting_wrp .v-data-table > .v-data-table__wrapper > table > tbody > tr > td{
+        font-size: 11px !important;
+    }
+    .selected_crypto_wrp .selected_crypto h5,
+    ul.selected_coinInfo_wrp li p{
+        font-size: 12px !important;
+    }
+    ul.crypto_tabs li{
+        font-size: 11px !important; 
+    }
+    .coinlisting_wrp .theme--dark.v-label{
+        font-size: 11px !important;
+    }
+    ul.crypto_tabs li:last-child > .v-overflow-btn .v-label{
+        font-size: 11px !important;
+    }
+    .form_field_row p,
+    .buy_col .available_bal p{
+        font-size: 12px !important;
+    }
+
+    .txt_field_brdr .theme--dark.v-input:not(.v-input--is-disabled) input,
+    .sell_txt_field_brdr .theme--dark.v-input:not(.v-input--is-disabled) input,
+    .txt_field_bg .theme--dark.v-input:not(.v-input--is-disabled) input{
+        font-size: 12px !important;
+    }
+    .txt_field_brdr .theme--dark.v-label,
+    .sell_txt_field_brdr .theme--dark.v-label,
+    .txt_field_bg .theme--dark.v-label{
+        font-size: 12px !important;
+    }
+    .crypto_name {
+        position: absolute;
+        top: 4px !important;
+        right: 10px !important;
+        font-size: 14px !important;
+    }
+    .volume .v_text{
+        font-size: 12px !important;
+    }
+    .selected_crypto_wrp .selected_crypto h6{
+        font-size: 12px;
+    }
+    ul.selected_coinInfo_wrp li h5{
+        font-size: 12px;
+    }
+    .ttl_txt{
+        font-size: 12px !important;
+    }
+    .coinlisting_wrp .v-chip.v-size--default,
+    .trade_history .v-chip.v-size--default{
+        font-size: 11px !important;
+    }
+    
+}
+@media (max-width:1475px){
+    .trade_history.v-data-table > .v-data-table__wrapper > table > tbody > tr > td,
+    .buyorder_wrp.v-data-table > .v-data-table__wrapper > table > tbody > tr > td,
+    .sellorder_wrp.v-data-table > .v-data-table__wrapper > table > tbody > tr > td,
+    .orderHistory_wrp.v-data-table>.v-data-table__wrapper>table>tbody>tr>td,
+    .orderList_wrp.v-data-table>.v-data-table__wrapper>table>tbody>tr>td,
+    .coinlisting_wrp .v-data-table > .v-data-table__wrapper > table > tbody > tr > td{
+        font-size: 10px !important;
+    }
+    .selected_crypto_wrp .selected_crypto h5,
+    ul.selected_coinInfo_wrp li p{
+        font-size: 11px !important;
+    }
+    ul.crypto_tabs li{
+        font-size: 10px !important; 
+    }
+    .coinlisting_wrp .theme--dark.v-label{
+        font-size: 10px !important;
+    }
+    ul.crypto_tabs li:last-child > .v-overflow-btn .v-label{
+        font-size: 10px !important;
+    }
+    .form_field_row p,
+    .buy_col .available_bal p{
+        font-size: 11px !important;
+    }
+
+    .txt_field_brdr .theme--dark.v-input:not(.v-input--is-disabled) input,
+    .sell_txt_field_brdr .theme--dark.v-input:not(.v-input--is-disabled) input,
+    .txt_field_bg .theme--dark.v-input:not(.v-input--is-disabled) input{
+        font-size: 11px !important;
+    }
+    .txt_field_brdr .theme--dark.v-label,
+    .sell_txt_field_brdr .theme--dark.v-label,
+    .txt_field_bg .theme--dark.v-label{
+        font-size: 11px !important;
+    }
+    .crypto_name {
+        position: absolute;
+        top: 4px !important;
+        right: 10px !important;
+        font-size: 14px !important;
+    }
+
+    .buy_col .available_bal p{
+        font-size: 11px;
+    }
+    .v-data-table td, .v-data-table th {
+        padding: 0 10px; 
+    }
+    .v-chip.v-size--default{
+        font-size: 11px;
+    }
+    .volume .v_text{
+        font-size: 11px !important;
+    }
+    .selected_crypto_wrp .selected_crypto h6{
+        font-size: 11px;
+    }
+    ul.selected_coinInfo_wrp li h5{
+        font-size: 11px;
+    }
+    .ttl_txt{
+        font-size: 11px !important;
+    }
+    .coinlisting_wrp .v-chip.v-size--default,
+    .trade_history .v-chip.v-size--default{
+        font-size: 10px !important;
+    }
+    .v-data-table th{
+        font-size: 10px !important;
+    }
+
+}
